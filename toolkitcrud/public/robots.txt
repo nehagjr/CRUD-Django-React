@@ -1,0 +1,20 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+
+
+Uncaught runtime errors:
+×
+ERROR
+The object notation for `createSlice.extraReducers` has been removed. Please use the 'builder callback' notation instead: https://redux-toolkit.js.org/api/createSlice
+    at buildReducer (http://localhost:3000/static/js/bundle.js:52325:17)
+    at reducer (http://localhost:3000/static/js/bundle.js:52352:33)
+    at http://localhost:3000/static/js/bundle.js:60215:26
+    at Array.forEach (<anonymous>)
+    at assertReducerShape (http://localhost:3000/static/js/bundle.js:60213:25)
+    at combineReducers (http://localhost:3000/static/js/bundle.js:60249:5)
+    at configureStore (http://localhost:3000/static/js/bundle.js:51815:73)
+    at ./src/app/store.js (http://localhost:3000/static/js/bundle.js:163:79)
+    at options.factory (http://localhost:3000/static/js/bundle.js:61699:31)
+    at __webpack_require__ (http://localhost:3000/static/js/bundle.js:61121:32)
